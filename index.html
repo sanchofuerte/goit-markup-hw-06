@@ -36,8 +36,8 @@
           </a>
 
           <button
-            class="header-menu-button"
-            js-open-menu
+            class="header-menu-button js-open-menu"
+            
             aria-expanded="false"
             aria-controls="mobile-menu"
             aria-label="Menu open buton"
@@ -77,8 +77,8 @@
     <!-- Section 1 -->
 
     <main>
-      <section class="studio studio-container">
-        <div class="container studio-container">
+      <section class="studio">
+        <div class="container">
           <h1 class="head-one studio-head-one">Effective Solutions for Your Business</h1>
           <button class="studio-button" type="button" data-modal-open> Order Service </button>
         </div>
@@ -86,7 +86,7 @@
 
     <!-- Section 2 -->
 
-    <!-- <section class="who-we-are">
+    <section class="who-we-are">
         <div class="container">
           <h2 class="head-two visually-hidden">Who we are</h2>
 
@@ -144,7 +144,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
     <!-- Section 3 -->
 
@@ -582,6 +582,71 @@
       </div>
     </div> -->
 
+<!-- Mobile menu -->
+
+<div class="mobile-menu js-menu-container">
+  <button class="modal-btn js-close-menu" type="button">
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
+        <ul class="list mob-menu-list">
+          <li><a class="link head-two mobile-menu-link" href="">Studio</a></li>
+          <li><a class="link head-two mobile-menu-link" href="">Portfolio</a></li>
+          <li><a class="link head-two mobile-menu-link" href="">Contacts</a></li>
+        </ul>
+
+        
+          <ul class="list mob-menu-contacts">
+            <li><a class="link head-two tel-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li><a class="link head-three" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+        
+
+
+  <ul class="list footer_icons-pack mob-icons-pack">
+            <li class="footer_icons-back">
+              <a href="" class="footer-link-icon">
+                <svg class="footer-triling-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_icons-back">
+              <a href="" class="footer-link-icon">
+                <svg class="footer-triling-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_icons-back">
+              <a href="" class="footer-link-icon">
+                <svg class="footer-triling-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_icons-back">
+              <a href="" class="footer-link-icon">
+                <svg class="footer-triling-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+</div>
     <script src="./js/modal.js" type="module"></script>
+    <script src="./js/mob-menu.js" type="module"></script>
+<script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
